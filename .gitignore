@@ -72,3 +72,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+gamebuild_/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+gamebuild_/Saved/AutoScreenshot.png
+gamebuild_/Intermediate/CachedAssetRegistry.bin
+gamebuild_/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
