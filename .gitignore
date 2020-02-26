@@ -76,3 +76,9 @@ gamebuild_/Saved/Config/Windows/EditorPerProjectUserSettings.ini
 gamebuild_/Saved/AutoScreenshot.png
 gamebuild_/Intermediate/CachedAssetRegistry.bin
 gamebuild_/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+gamebuild_/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+gamebuild_/Saved/Config/Windows/Engine.ini
+gamebuild_/Intermediate/CachedAssetRegistry.bin
+*.ini
+gamebuild_/Saved/AutoScreenshot.png
+gamebuild_/Intermediate/CachedAssetRegistry.bin
