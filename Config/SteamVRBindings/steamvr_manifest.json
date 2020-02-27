@@ -102,11 +102,27 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/SCALEBUTTON",
+			"name": "/actions/main/in/Freeze",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/triggerleft",
+			"name": "/actions/main/in/OPENMENU",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/SCALEUP",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/SCALEDOWN",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/CHANGE MASS UP",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/CHANGE MASS DOWN",
 			"type": "boolean"
 		},
 		{
@@ -116,6 +132,14 @@
 		{
 			"name": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d",
 			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/MCTU(L) axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/MCTD(L) axis",
+			"type": "vector1"
 		}
 	],
 	"action_sets": [
@@ -238,10 +262,16 @@
 			"/actions/main/in/GrabRight": "GrabRight",
 			"/actions/main/in/graboject": "graboject",
 			"/actions/main/in/launch object": "launch object",
-			"/actions/main/in/SCALEBUTTON": "SCALEBUTTON",
-			"/actions/main/in/triggerleft": "triggerleft",
+			"/actions/main/in/Freeze": "Freeze",
+			"/actions/main/in/OPENMENU": "OPENMENU",
+			"/actions/main/in/SCALEUP": "SCALEUP",
+			"/actions/main/in/SCALEDOWN": "SCALEDOWN",
+			"/actions/main/in/CHANGE MASS UP": "CHANGE MASS UP",
+			"/actions/main/in/CHANGE MASS DOWN": "CHANGE MASS DOWN",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
+			"/actions/main/in/MCTU(L) axis": "MCTU(L)",
+			"/actions/main/in/MCTD(L) axis": "MCTD(L)",
 			"/actions/main": "Main Game Actions"
 		}
 	]

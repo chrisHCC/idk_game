@@ -53,7 +53,7 @@
 				},
 				{
 					"mode": "button",
-					"path": "/user/hand/right/input/grip",
+					"path": "/user/hand/right/input/trigger",
 					"inputs":
 					{
 						"click":
@@ -64,12 +64,83 @@
 				},
 				{
 					"mode": "button",
+					"path": "/user/hand/right/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/launch object"
+						}
+					}
+				},
+				{
+					"mode": "button",
 					"path": "/user/hand/left/input/trigger",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/SCALEBUTTON"
+							"output": "/actions/main/in/Freeze"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
+					"inputs":
+					{
+						"north":
+						{
+							"output": "/actions/main/in/SCALEUP"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
+					"inputs":
+					{
+						"south":
+						{
+							"output": "/actions/main/in/SCALEDOWN"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
+					"inputs":
+					{
+						"east":
+						{
+							"output": "/actions/main/in/CHANGE MASS UP"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
+					"inputs":
+					{
+						"west":
+						{
+							"output": "/actions/main/in/CHANGE MASS DOWN"
 						}
 					}
 				},
@@ -92,6 +163,28 @@
 						"position":
 						{
 							"output": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d"
+						}
+					}
+				},
+				{
+					"mode": "scalar_constant",
+					"path": "/user/hand/left/input/trackpad",
+					"inputs":
+					{
+						"value":
+						{
+							"output": "/actions/main/in/MCTU(L) axis"
+						}
+					}
+				},
+				{
+					"mode": "scalar_constant",
+					"path": "/user/hand/left/input/trackpad",
+					"inputs":
+					{
+						"value":
+						{
+							"output": "/actions/main/in/MCTD(L) axis"
 						}
 					}
 				}

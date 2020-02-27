@@ -102,18 +102,78 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/SCALEBUTTON"
+							"output": "/actions/main/in/Freeze"
 						}
 					}
 				},
 				{
 					"mode": "button",
-					"path": "/user/hand/left/input/trigger",
+					"path": "/user/hand/left/input/y",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/triggerleft"
+							"output": "/actions/main/in/OPENMENU"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"north":
+						{
+							"output": "/actions/main/in/SCALEUP"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"south":
+						{
+							"output": "/actions/main/in/SCALEDOWN"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"east":
+						{
+							"output": "/actions/main/in/CHANGE MASS UP"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"west":
+						{
+							"output": "/actions/main/in/CHANGE MASS DOWN"
 						}
 					}
 				},
@@ -136,6 +196,28 @@
 						"position":
 						{
 							"output": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d"
+						}
+					}
+				},
+				{
+					"mode": "scalar_constant",
+					"path": "/user/hand/left/input/joystick",
+					"inputs":
+					{
+						"value":
+						{
+							"output": "/actions/main/in/MCTU(L) axis"
+						}
+					}
+				},
+				{
+					"mode": "scalar_constant",
+					"path": "/user/hand/left/input/joystick",
+					"inputs":
+					{
+						"value":
+						{
+							"output": "/actions/main/in/MCTD(L) axis"
 						}
 					}
 				}
