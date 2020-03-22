@@ -94,35 +94,11 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/graboject",
+			"name": "/actions/main/in/Hold Object Laser Right Hand",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/launch object",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/Freeze",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/OPENMENU",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/SCALEUP",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/SCALEDOWN",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/CHANGE MASS UP",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/CHANGE MASS DOWN",
+			"name": "/actions/main/in/Trigger Action Right Hand",
 			"type": "boolean"
 		},
 		{
@@ -260,14 +236,8 @@
 			"/actions/main/in/TeleportLeft": "TeleportLeft",
 			"/actions/main/in/GrabLeft": "GrabLeft",
 			"/actions/main/in/GrabRight": "GrabRight",
-			"/actions/main/in/graboject": "graboject",
-			"/actions/main/in/launch object": "launch object",
-			"/actions/main/in/Freeze": "Freeze",
-			"/actions/main/in/OPENMENU": "OPENMENU",
-			"/actions/main/in/SCALEUP": "SCALEUP",
-			"/actions/main/in/SCALEDOWN": "SCALEDOWN",
-			"/actions/main/in/CHANGE MASS UP": "CHANGE MASS UP",
-			"/actions/main/in/CHANGE MASS DOWN": "CHANGE MASS DOWN",
+			"/actions/main/in/Hold Object Laser Right Hand": "Hold Object Laser Right Hand",
+			"/actions/main/in/Trigger Action Right Hand": "Trigger Action Right Hand",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main/in/MCTU(L) axis": "MCTU(L)",

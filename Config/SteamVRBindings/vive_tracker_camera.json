@@ -53,94 +53,23 @@
 				},
 				{
 					"mode": "button",
-					"path": "/user/hand/right/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/graboject"
-						}
-					}
-				},
-				{
-					"mode": "button",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/launch object"
+							"output": "/actions/main/in/Hold Object Laser Right Hand"
 						}
 					}
 				},
 				{
 					"mode": "button",
-					"path": "/user/hand/left/input/trigger",
+					"path": "/user/hand/right/input/trigger",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/Freeze"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"north":
-						{
-							"output": "/actions/main/in/SCALEUP"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"south":
-						{
-							"output": "/actions/main/in/SCALEDOWN"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"east":
-						{
-							"output": "/actions/main/in/CHANGE MASS UP"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"west":
-						{
-							"output": "/actions/main/in/CHANGE MASS DOWN"
+							"output": "/actions/main/in/Trigger Action Right Hand"
 						}
 					}
 				},

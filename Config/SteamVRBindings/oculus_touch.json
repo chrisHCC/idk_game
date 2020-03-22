@@ -75,23 +75,12 @@
 				},
 				{
 					"mode": "button",
-					"path": "/user/hand/right/input/b",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/graboject"
-						}
-					}
-				},
-				{
-					"mode": "button",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/launch object"
+							"output": "/actions/main/in/Hold Object Laser Right Hand"
 						}
 					}
 				},
@@ -102,78 +91,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/Freeze"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/left/input/y",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/OPENMENU"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/joystick",
-					"parameters":
-					{
-						"sub_mode": "touch"
-					},
-					"inputs":
-					{
-						"north":
-						{
-							"output": "/actions/main/in/SCALEUP"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/joystick",
-					"parameters":
-					{
-						"sub_mode": "touch"
-					},
-					"inputs":
-					{
-						"south":
-						{
-							"output": "/actions/main/in/SCALEDOWN"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/joystick",
-					"parameters":
-					{
-						"sub_mode": "touch"
-					},
-					"inputs":
-					{
-						"east":
-						{
-							"output": "/actions/main/in/CHANGE MASS UP"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/joystick",
-					"parameters":
-					{
-						"sub_mode": "touch"
-					},
-					"inputs":
-					{
-						"west":
-						{
-							"output": "/actions/main/in/CHANGE MASS DOWN"
+							"output": "/actions/main/in/Trigger Action Right Hand"
 						}
 					}
 				},
