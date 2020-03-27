@@ -52,7 +52,7 @@
 					}
 				},
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/left/input/grip",
 					"inputs":
 					{
@@ -63,7 +63,7 @@
 					}
 				},
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
@@ -129,5 +129,5 @@
 			]
 		}
 	},
-	"description": "Virtual Reality BP Game Template-11100242"
+	"description": "Virtual Reality BP Game Template-11590370"
 }

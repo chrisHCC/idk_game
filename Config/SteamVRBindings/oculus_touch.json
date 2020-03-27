@@ -52,7 +52,7 @@
 					}
 				},
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/left/input/grip",
 					"inputs":
 					{
@@ -63,7 +63,7 @@
 					}
 				},
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
@@ -74,7 +74,7 @@
 					}
 				},
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
@@ -85,13 +85,24 @@
 					}
 				},
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/right/input/trigger",
 					"inputs":
 					{
 						"click":
 						{
 							"output": "/actions/main/in/Trigger Action Right Hand"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/left/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GrabLeft_A"
 						}
 					}
 				},
@@ -118,22 +129,30 @@
 					}
 				},
 				{
-					"mode": "scalar_constant",
+					"mode": "dpad",
 					"path": "/user/hand/left/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
 					"inputs":
 					{
-						"value":
+						"north":
 						{
 							"output": "/actions/main/in/MCTU(L) axis"
 						}
 					}
 				},
 				{
-					"mode": "scalar_constant",
+					"mode": "dpad",
 					"path": "/user/hand/left/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
 					"inputs":
 					{
-						"value":
+						"south":
 						{
 							"output": "/actions/main/in/MCTD(L) axis"
 						}
@@ -173,5 +192,5 @@
 			]
 		}
 	},
-	"description": "Virtual Reality BP Game Template-11100242"
+	"description": "Virtual Reality BP Game Template-11590370"
 }
