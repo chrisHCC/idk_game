@@ -86,10 +86,6 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/GrabLeft",
-			"type": "boolean"
-		},
-		{
 			"name": "/actions/main/in/GrabRight",
 			"type": "boolean"
 		},
@@ -103,6 +99,14 @@
 		},
 		{
 			"name": "/actions/main/in/GrabLeft_A",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/ScaleUp",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/ScaleDown",
 			"type": "boolean"
 		},
 		{
@@ -238,11 +242,12 @@
 			"/actions/main/in/open_console": "Open Console",
 			"/actions/main/in/TeleportRight": "TeleportRight",
 			"/actions/main/in/TeleportLeft": "TeleportLeft",
-			"/actions/main/in/GrabLeft": "GrabLeft",
 			"/actions/main/in/GrabRight": "GrabRight",
 			"/actions/main/in/Hold Object Laser Right Hand": "Hold Object Laser Right Hand",
 			"/actions/main/in/Trigger Action Right Hand": "Trigger Action Right Hand",
 			"/actions/main/in/GrabLeft_A": "GrabLeft_A",
+			"/actions/main/in/ScaleUp": "ScaleUp",
+			"/actions/main/in/ScaleDown": "ScaleDown",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main/in/MCTU(L) axis": "MCTU(L)",

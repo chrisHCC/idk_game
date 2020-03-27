@@ -53,17 +53,6 @@
 				},
 				{
 					"mode": "trigger",
-					"path": "/user/hand/left/input/grip",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/GrabLeft"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
@@ -103,6 +92,28 @@
 						"click":
 						{
 							"output": "/actions/main/in/GrabLeft_A"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/b",
+					"inputs":
+					{
+						"touch":
+						{
+							"output": "/actions/main/in/ScaleUp"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/a",
+					"inputs":
+					{
+						"touch":
+						{
+							"output": "/actions/main/in/ScaleDown"
 						}
 					}
 				},
