@@ -8,17 +8,6 @@
 		{
 			"sources": [
 				{
-					"mode": "button",
-					"path": "/user/hand/right/input/a",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportRight"
-						}
-					}
-				},
-				{
 					"mode": "joystick",
 					"path": "/user/hand/right/input/joystick",
 					"inputs":
@@ -26,17 +15,6 @@
 						"click":
 						{
 							"output": "/actions/main/in/TeleportRight"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/left/input/x",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportLeft"
 						}
 					}
 				},
