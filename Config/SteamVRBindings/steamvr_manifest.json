@@ -122,6 +122,14 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/FREEZEPLATAFORM",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/SELECT_BUTTON",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d",
 			"type": "vector2"
 		},
@@ -263,6 +271,8 @@
 			"/actions/main/in/OPEN MENU": "OPEN MENU",
 			"/actions/main/in/closer": "closer",
 			"/actions/main/in/far": "far",
+			"/actions/main/in/FREEZEPLATAFORM": "FREEZEPLATAFORM",
+			"/actions/main/in/SELECT_BUTTON": "SELECT_BUTTON",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main/in/MCTU(L) axis": "MCTU(L)",
