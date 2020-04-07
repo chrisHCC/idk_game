@@ -86,47 +86,27 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/Open Main Menu",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/GrabRight",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/Hold Object Laser Right Hand",
+			"name": "/actions/main/in/Freeze",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/Trigger Action Right Hand",
+			"name": "/actions/main/in/Scale",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/GrabLeft_A",
+			"name": "/actions/main/in/GrabLeft",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/ScaleUp",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/ScaleDown",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/OPEN MENU",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/closer",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/far",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/FREEZEPLATAFORM",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/SELECT_BUTTON",
+			"name": "/actions/main/in/Open Map Menu",
 			"type": "boolean"
 		},
 		{
@@ -136,14 +116,6 @@
 		{
 			"name": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d",
 			"type": "vector2"
-		},
-		{
-			"name": "/actions/main/in/MCTU(L) axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/MCTD(L) axis",
-			"type": "vector1"
 		}
 	],
 	"action_sets": [
@@ -262,21 +234,14 @@
 			"/actions/main/in/open_console": "Open Console",
 			"/actions/main/in/TeleportRight": "TeleportRight",
 			"/actions/main/in/TeleportLeft": "TeleportLeft",
+			"/actions/main/in/Open Main Menu": "Open Main Menu",
 			"/actions/main/in/GrabRight": "GrabRight",
-			"/actions/main/in/Hold Object Laser Right Hand": "Hold Object Laser Right Hand",
-			"/actions/main/in/Trigger Action Right Hand": "Trigger Action Right Hand",
-			"/actions/main/in/GrabLeft_A": "GrabLeft_A",
-			"/actions/main/in/ScaleUp": "ScaleUp",
-			"/actions/main/in/ScaleDown": "ScaleDown",
-			"/actions/main/in/OPEN MENU": "OPEN MENU",
-			"/actions/main/in/closer": "closer",
-			"/actions/main/in/far": "far",
-			"/actions/main/in/FREEZEPLATAFORM": "FREEZEPLATAFORM",
-			"/actions/main/in/SELECT_BUTTON": "SELECT_BUTTON",
+			"/actions/main/in/Freeze": "Freeze",
+			"/actions/main/in/Scale": "Scale",
+			"/actions/main/in/GrabLeft": "GrabLeft",
+			"/actions/main/in/Open Map Menu": "Open Map Menu",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
-			"/actions/main/in/MCTU(L) axis": "MCTU(L)",
-			"/actions/main/in/MCTD(L) axis": "MCTD(L)",
 			"/actions/main": "Main Game Actions"
 		}
 	]
