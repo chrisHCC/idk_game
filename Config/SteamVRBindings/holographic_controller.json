@@ -82,15 +82,44 @@
 					}
 				},
 				{
-					"mode": "dpad",
+					"mode": "trackpad",
 					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
 					"inputs":
 					{
-						"south":
+						"click":
+						{
+							"output": "/actions/main/in/Open Map Menu"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Open Map Menu"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/application_menu",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Open Map Menu"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"click":
 						{
 							"output": "/actions/main/in/Open Map Menu"
 						}
