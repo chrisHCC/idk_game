@@ -110,6 +110,18 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/Ability_activation",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/Up(R)",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/Down(R)",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d",
 			"type": "vector2"
 		},
@@ -240,6 +252,9 @@
 			"/actions/main/in/Scale": "Scale",
 			"/actions/main/in/GrabLeft": "GrabLeft",
 			"/actions/main/in/Open Map Menu": "Open Map Menu",
+			"/actions/main/in/Ability_activation": "Ability_activation",
+			"/actions/main/in/Up(R)": "Up(R)",
+			"/actions/main/in/Down(R)": "Down(R)",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main": "Main Game Actions"

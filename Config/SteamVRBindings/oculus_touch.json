@@ -96,6 +96,17 @@
 					}
 				},
 				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Ability_activation"
+						}
+					}
+				},
+				{
 					"mode": "joystick",
 					"path": "/user/hand/left/input/joystick",
 					"inputs":

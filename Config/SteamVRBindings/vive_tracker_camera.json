@@ -41,8 +41,8 @@
 					}
 				},
 				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/trigger",
+					"mode": "button",
+					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
 						"click":
@@ -104,6 +104,47 @@
 						"south":
 						{
 							"output": "/actions/main/in/Open Map Menu"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Ability_activation"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/right/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"north":
+						{
+							"output": "/actions/main/in/Up(R)"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/right/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"south":
+						{
+							"output": "/actions/main/in/Down(R)"
 						}
 					}
 				},
