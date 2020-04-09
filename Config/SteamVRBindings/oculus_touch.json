@@ -30,24 +30,13 @@
 					}
 				},
 				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/grip",
+					"mode": "button",
+					"path": "/user/hand/left/input/x",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/GrabRight"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/grip",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/Hold Object Laser Right Hand"
+							"output": "/actions/main/in/Open Main Menu"
 						}
 					}
 				},
@@ -58,29 +47,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/Trigger Action Right Hand"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/grip",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/GrabLeft_A"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/right/input/b",
-					"inputs":
-					{
-						"touch":
-						{
-							"output": "/actions/main/in/ScaleUp"
+							"output": "/actions/main/in/GrabRight"
 						}
 					}
 				},
@@ -89,20 +56,31 @@
 					"path": "/user/hand/right/input/a",
 					"inputs":
 					{
-						"touch":
+						"click":
 						{
-							"output": "/actions/main/in/ScaleDown"
+							"output": "/actions/main/in/Freeze"
 						}
 					}
 				},
 				{
 					"mode": "button",
-					"path": "/user/hand/left/input/application_menu",
+					"path": "/user/hand/right/input/b",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/OPEN MENU"
+							"output": "/actions/main/in/Scale"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GrabLeft"
 						}
 					}
 				},
@@ -113,18 +91,18 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/closer"
+							"output": "/actions/main/in/Open Map Menu"
 						}
 					}
 				},
 				{
-					"mode": "button",
-					"path": "/user/hand/left/input/x",
+					"mode": "trigger",
+					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/far"
+							"output": "/actions/main/in/Ability_activation"
 						}
 					}
 				},
@@ -147,36 +125,6 @@
 						"position":
 						{
 							"output": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/joystick",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"north":
-						{
-							"output": "/actions/main/in/MCTU(L) axis"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/joystick",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"south":
-						{
-							"output": "/actions/main/in/MCTD(L) axis"
 						}
 					}
 				}

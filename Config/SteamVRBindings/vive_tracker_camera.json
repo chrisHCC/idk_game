@@ -30,13 +30,13 @@
 					}
 				},
 				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/trigger",
+					"mode": "button",
+					"path": "/user/hand/left/input/application_menu",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/GrabRight"
+							"output": "/actions/main/in/Open Main Menu"
 						}
 					}
 				},
@@ -47,29 +47,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/Hold Object Laser Right Hand"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/Trigger Action Right Hand"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/left/input/grip",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/GrabLeft_A"
+							"output": "/actions/main/in/GrabRight"
 						}
 					}
 				},
@@ -78,13 +56,13 @@
 					"path": "/user/hand/right/input/trackpad",
 					"parameters":
 					{
-						"sub_mode": "touch"
+						"sub_mode": "click"
 					},
 					"inputs":
 					{
 						"north":
 						{
-							"output": "/actions/main/in/ScaleUp"
+							"output": "/actions/main/in/Freeze"
 						}
 					}
 				},
@@ -93,24 +71,24 @@
 					"path": "/user/hand/right/input/trackpad",
 					"parameters":
 					{
-						"sub_mode": "touch"
+						"sub_mode": "click"
 					},
 					"inputs":
 					{
 						"south":
 						{
-							"output": "/actions/main/in/ScaleDown"
+							"output": "/actions/main/in/Scale"
 						}
 					}
 				},
 				{
-					"mode": "button",
-					"path": "/user/hand/left/input/application_menu",
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/OPEN MENU"
+							"output": "/actions/main/in/GrabLeft"
 						}
 					}
 				},
@@ -125,13 +103,24 @@
 					{
 						"south":
 						{
-							"output": "/actions/main/in/closer"
+							"output": "/actions/main/in/Open Map Menu"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Ability_activation"
 						}
 					}
 				},
 				{
 					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
+					"path": "/user/hand/right/input/trackpad",
 					"parameters":
 					{
 						"sub_mode": "touch"
@@ -140,7 +129,22 @@
 					{
 						"north":
 						{
-							"output": "/actions/main/in/far"
+							"output": "/actions/main/in/Up(R)"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/right/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"south":
+						{
+							"output": "/actions/main/in/Down(R)"
 						}
 					}
 				},
@@ -163,36 +167,6 @@
 						"position":
 						{
 							"output": "/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"north":
-						{
-							"output": "/actions/main/in/MCTU(L) axis"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/left/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"south":
-						{
-							"output": "/actions/main/in/MCTD(L) axis"
 						}
 					}
 				}

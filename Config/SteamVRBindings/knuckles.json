@@ -8,13 +8,13 @@
 		{
 			"sources": [
 				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/grip",
+					"mode": "joystick",
+					"path": "/user/hand/right/input/thumbstick",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/GrabRight"
+							"output": "/actions/main/in/TeleportRight"
 						}
 					}
 				},

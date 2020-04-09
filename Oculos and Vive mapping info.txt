@@ -2,3 +2,13 @@ https://developer.oculus.com/documentation/unreal/unreal-controller-input-mappin
 
 
 https://imgur.com/jgdRuzt
+
+
+
+
+Fix pick up cubes physics 
+
+how to programn the movement of the hand when it is pressing the RAT hand.
+
+Open all the levels from the menu.
+
