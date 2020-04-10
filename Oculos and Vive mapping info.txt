@@ -12,3 +12,27 @@ how to programn the movement of the hand when it is pressing the RAT hand.
 
 Open all the levels from the menu.
 
+
+
+scroll a tgravcez de las siguientes opciones
+
+Left Grip, Right Grip - Grab
+
+Left Thumbstick Up - Teleport
+
+Right Menu Button - Main Menu
+
+Left Trackpad Down - Map
+
+Left Menu Button - Level Menu
+
+Right Trigger - Select / Gravity Gun / Shoot
+
+Right Thumbstick Down / Up - Move things closer / further
+
+Right Thumbstick Left / Right - Scale things Up / Down
+
+Right Trackpad Left - Toggle Freeze
+
+Right Trackpad Right - Toggle Scale
+
