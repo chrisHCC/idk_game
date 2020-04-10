@@ -36,3 +36,19 @@ Right Trackpad Left - Toggle Freeze
 
 Right Trackpad Right - Toggle Scale
 
+
+
+
+1 OPen Tools menu // menu select (X)
+2 Menu/Function // level select (Y)
+		3 history  // teleport / rotation thumbstick
+4 set reference //  pick up buttpon (triggeroculus )
+5 grab entire sketch // grab hand (oculus grip)
+
+
+
+		6 increase select // teleport rotation (thumbstick)
+7 undo/delete // scale  (B)
+8 color menu // freeze (A)
+9 grab item // grab laser (oculus grip)
+10 create content // ability activation (oculus trigger)

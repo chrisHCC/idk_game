@@ -86,11 +86,11 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/Open Main Menu",
+			"name": "/actions/main/in/Level Selection",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/GrabRight",
+			"name": "/actions/main/in/GrabRightHand",
 			"type": "boolean"
 		},
 		{
@@ -102,11 +102,11 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/GrabLeft",
+			"name": "/actions/main/in/GrabLeftHand",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/Open Map Menu",
+			"name": "/actions/main/in/Menu Selection",
 			"type": "boolean"
 		},
 		{
@@ -246,12 +246,12 @@
 			"/actions/main/in/open_console": "Open Console",
 			"/actions/main/in/TeleportRight": "TeleportRight",
 			"/actions/main/in/TeleportLeft": "TeleportLeft",
-			"/actions/main/in/Open Main Menu": "Open Main Menu",
-			"/actions/main/in/GrabRight": "GrabRight",
+			"/actions/main/in/Level Selection": "Level Selection",
+			"/actions/main/in/GrabRightHand": "GrabRightHand",
 			"/actions/main/in/Freeze": "Freeze",
 			"/actions/main/in/Scale": "Scale",
-			"/actions/main/in/GrabLeft": "GrabLeft",
-			"/actions/main/in/Open Map Menu": "Open Map Menu",
+			"/actions/main/in/GrabLeftHand": "GrabLeftHand",
+			"/actions/main/in/Menu Selection": "Menu Selection",
 			"/actions/main/in/Ability_activation": "Ability_activation",
 			"/actions/main/in/Up(R)": "Up(R)",
 			"/actions/main/in/Down(R)": "Down(R)",

@@ -31,12 +31,12 @@
 				},
 				{
 					"mode": "button",
-					"path": "/user/hand/left/input/x",
+					"path": "/user/hand/left/input/y",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/Open Main Menu"
+							"output": "/actions/main/in/Level Selection"
 						}
 					}
 				},
@@ -47,7 +47,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/GrabRight"
+							"output": "/actions/main/in/GrabRightHand"
 						}
 					}
 				},
@@ -80,7 +80,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/GrabLeft"
+							"output": "/actions/main/in/GrabLeftHand"
 						}
 					}
 				},
@@ -91,7 +91,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/Open Map Menu"
+							"output": "/actions/main/in/Menu Selection"
 						}
 					}
 				},
@@ -103,6 +103,36 @@
 						"click":
 						{
 							"output": "/actions/main/in/Ability_activation"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/right/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
+					"inputs":
+					{
+						"north":
+						{
+							"output": "/actions/main/in/Up(R)"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/right/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
+					"inputs":
+					{
+						"south":
+						{
+							"output": "/actions/main/in/Down(R)"
 						}
 					}
 				},

@@ -36,7 +36,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/Open Main Menu"
+							"output": "/actions/main/in/Level Selection"
 						}
 					}
 				},
@@ -47,7 +47,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/GrabRight"
+							"output": "/actions/main/in/GrabRightHand"
 						}
 					}
 				},
@@ -88,7 +88,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/GrabLeft"
+							"output": "/actions/main/in/GrabLeftHand"
 						}
 					}
 				},
@@ -99,7 +99,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/Open Map Menu"
+							"output": "/actions/main/in/Menu Selection"
 						}
 					}
 				},
