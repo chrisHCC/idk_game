@@ -117,7 +117,7 @@
 					{
 						"north":
 						{
-							"output": "/actions/main/in/Up(R)"
+							"output": "/actions/main/in/ScaleUp(R)"
 						}
 					}
 				},
@@ -132,7 +132,7 @@
 					{
 						"south":
 						{
-							"output": "/actions/main/in/Down(R)"
+							"output": "/actions/main/in/ScaleDown(R)"
 						}
 					}
 				},

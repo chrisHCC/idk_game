@@ -114,11 +114,19 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/Up(R)",
+			"name": "/actions/main/in/ScaleUp(R)",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/Down(R)",
+			"name": "/actions/main/in/ScaleDown(R)",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/MoveCloser",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/MoveFurther",
 			"type": "boolean"
 		},
 		{
@@ -253,8 +261,10 @@
 			"/actions/main/in/GrabLeftHand": "GrabLeftHand",
 			"/actions/main/in/Menu Selection": "Menu Selection",
 			"/actions/main/in/Ability_activation": "Ability_activation",
-			"/actions/main/in/Up(R)": "Up(R)",
-			"/actions/main/in/Down(R)": "Down(R)",
+			"/actions/main/in/ScaleUp(R)": "ScaleUp(R)",
+			"/actions/main/in/ScaleDown(R)": "ScaleDown(R)",
+			"/actions/main/in/MoveCloser": "MoveCloser",
+			"/actions/main/in/MoveFurther": "MoveFurther",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main": "Main Game Actions"

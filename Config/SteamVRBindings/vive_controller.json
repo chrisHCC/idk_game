@@ -9,17 +9,6 @@
 			"sources": [
 				{
 					"mode": "trackpad",
-					"path": "/user/hand/right/input/trackpad",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportRight"
-						}
-					}
-				},
-				{
-					"mode": "trackpad",
 					"path": "/user/hand/left/input/trackpad",
 					"inputs":
 					{
@@ -123,13 +112,13 @@
 					"path": "/user/hand/right/input/trackpad",
 					"parameters":
 					{
-						"sub_mode": "touch"
+						"sub_mode": "click"
 					},
 					"inputs":
 					{
-						"north":
+						"west":
 						{
-							"output": "/actions/main/in/Up(R)"
+							"output": "/actions/main/in/ScaleUp(R)"
 						}
 					}
 				},
@@ -138,13 +127,13 @@
 					"path": "/user/hand/right/input/trackpad",
 					"parameters":
 					{
-						"sub_mode": "touch"
+						"sub_mode": "click"
 					},
 					"inputs":
 					{
-						"south":
+						"east":
 						{
-							"output": "/actions/main/in/Down(R)"
+							"output": "/actions/main/in/ScaleDown(R)"
 						}
 					}
 				},

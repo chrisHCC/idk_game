@@ -41,8 +41,8 @@
 					}
 				},
 				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/trigger",
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
 					"inputs":
 					{
 						"click":
@@ -60,7 +60,7 @@
 					},
 					"inputs":
 					{
-						"north":
+						"west":
 						{
 							"output": "/actions/main/in/Freeze"
 						}
@@ -75,15 +75,15 @@
 					},
 					"inputs":
 					{
-						"south":
+						"east":
 						{
 							"output": "/actions/main/in/Scale"
 						}
 					}
 				},
 				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/trigger",
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
 					"inputs":
 					{
 						"click":
@@ -93,13 +93,84 @@
 					}
 				},
 				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/trigger",
+					"mode": "button",
+					"path": "/user/hand/right/input/application_menu",
 					"inputs":
 					{
 						"click":
 						{
 							"output": "/actions/main/in/Menu Selection"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Ability_activation"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/right/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
+					"inputs":
+					{
+						"west":
+						{
+							"output": "/actions/main/in/ScaleUp(R)"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/right/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
+					"inputs":
+					{
+						"east":
+						{
+							"output": "/actions/main/in/ScaleDown(R)"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/right/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
+					"inputs":
+					{
+						"south":
+						{
+							"output": "/actions/main/in/MoveCloser"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/right/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
+					"inputs":
+					{
+						"north":
+						{
+							"output": "/actions/main/in/MoveFurther"
 						}
 					}
 				},
