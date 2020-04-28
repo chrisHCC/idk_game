@@ -20,53 +20,12 @@
 				},
 				{
 					"mode": "button",
-					"path": "/user/hand/left/input/application_menu",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/Level Selection"
-						}
-					}
-				},
-				{
-					"mode": "button",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
 						"click":
 						{
 							"output": "/actions/main/in/GrabRightHand"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/right/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"north":
-						{
-							"output": "/actions/main/in/Freeze"
-						}
-					}
-				},
-				{
-					"mode": "dpad",
-					"path": "/user/hand/right/input/trackpad",
-					"parameters":
-					{
-						"sub_mode": "click"
-					},
-					"inputs":
-					{
-						"south":
-						{
-							"output": "/actions/main/in/Scale"
 						}
 					}
 				},
@@ -78,17 +37,6 @@
 						"click":
 						{
 							"output": "/actions/main/in/GrabLeftHand"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/left/input/grip",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/Menu Selection"
 						}
 					}
 				},
@@ -130,6 +78,28 @@
 						"east":
 						{
 							"output": "/actions/main/in/ScaleDown(R)"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/application_menu",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Toggle Powers Steam VR"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/application_menu",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Toggle Menus Steam VR"
 						}
 					}
 				},

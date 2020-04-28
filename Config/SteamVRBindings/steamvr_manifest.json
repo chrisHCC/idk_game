@@ -130,6 +130,14 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/Toggle Powers Steam VR",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/Toggle Menus Steam VR",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d",
 			"type": "vector2"
 		},
@@ -265,6 +273,8 @@
 			"/actions/main/in/ScaleDown(R)": "ScaleDown(R)",
 			"/actions/main/in/MoveCloser": "MoveCloser",
 			"/actions/main/in/MoveFurther": "MoveFurther",
+			"/actions/main/in/Toggle Powers Steam VR": "Toggle Powers Steam VR",
+			"/actions/main/in/Toggle Menus Steam VR": "Toggle Menus Steam VR",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main": "Main Game Actions"
